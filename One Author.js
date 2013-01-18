@@ -82,8 +82,14 @@ function createReference(){
         year: O('pubYear').value,
         company: O('pubComp').value,
         city:  O('pubCity').value,
-        state: O('pubState').value,
-    });
+        state: O('pubState').value
+        });
+    var li = document.createElement("li");
+    li.innerHTML = reference;
+    var ul = O("referenceList");
+    ul.appendChild(li);
+}
+    
 
 function O(obj){
     return document.getElementById(obj);
