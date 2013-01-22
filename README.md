@@ -11,6 +11,8 @@ One Author.html is an example implementation of the javascript file.
 Currently One Author is the file that supports a citation for a single author book.
 Plans for future implementation of other document types.
 
+
+
 The MIT License (MIT)
 Copyright © 2013 Jordan Upiter
 
